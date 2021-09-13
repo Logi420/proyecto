@@ -1,0 +1,21 @@
+h1{
+    color:blue;
+    font-family: serif;
+    font-size: 300%;
+}
+p{
+ color:red;
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 160%;
+}
+
+nav ul li
+{
+    list-style-type: none;
+}
+
+nav ul li
+{
+    color: rgb(33, 44, 199);
+    text-transform: uppercase;
+}
