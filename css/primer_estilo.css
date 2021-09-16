@@ -1,3 +1,4 @@
+/*
 h1{
     color:blue;
     font-family: serif;
@@ -18,4 +19,255 @@ nav ul li
 {
     color: rgb(33, 44, 199);
     text-transform: uppercase;
-}
+    */
+
+    h1 {
+        font-family:serif;
+        font-size: 150%;
+      }
+    
+     
+    body{
+      background-color: white;
+    }
+    
+    /*sintaxis para mas de una etiqueta*/
+    .diseño_caja1{
+      width: 28%;
+      height: 30%;
+      display: inline-block;
+      /*display: flex;*/
+      border-style: solid;
+      background-color:white;
+      /*margin: 1% 1% 1% 1%;*/
+      margin: 10px 10px 10px 10px;
+      padding: 1% 0 0 1%;
+    }
+    /*sintaxis para una sola etiqueta*/
+    #parrafo1{
+      color:cadetblue;
+    }
+    
+    .tituloyicono{
+      display: flex;
+    }
+    
+    .cajatitulo{
+      width: 70%;
+      height: 60px;
+      background-color:#ffffff;
+      text-align: center;
+    }
+    
+    .cajaicono{
+      width: 30%;
+      height: 60px;
+      background-color: #ffffff;
+      text-align: right;
+    
+    }
+    
+    .iconopersonalizado{
+      font-size: 40px;
+      color:darkblue;
+    }
+    
+    .iconopersonalizado2{
+      font-size: 40px;
+      color:slateblue;
+    }
+    
+    .iconopersonalizado3{
+      font-size: 40px;
+      color:steelblue;
+    }
+    
+    .botondiv{
+      background-color: orange;
+      width: 150px;
+      height: 40px;
+      color: #ffffff;
+      align-items:right;
+      border-color: orange;
+    }
+    
+    .botonderecha{
+      display: flex;
+      height: 10%;
+      justify-content: right;
+      
+      
+    }
+    
+    .menu_alinear{
+      display: flex;  
+      justify-content: center;
+      margin: 50px 0 30px 0;
+    }
+    
+    .menu ul{
+      display: flex;
+      list-style: none;
+      justify-content: center;
+    }
+    
+    .menu li a{
+      display: block;
+      background-color:steelblue;
+      color: #ffffff;
+      width: 200px;
+      height: 40px;
+      text-decoration: none;
+      border-style: solid;
+      text-align: center;
+      padding: 20px 0px 0px 0px;
+    }
+    
+    .menu a:hover{
+      background-color: midnightblue;
+       color:moccasin;
+    }
+    .cambioselect{
+      width: 80%;
+    }
+    
+    .formulario{
+      width: 40%;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    .formulario_label{
+      width: 30%;
+      margin: 5px;
+      display: inline-block;
+      text-align: left;
+    }
+    .formulario_input{
+      width: 60%;
+      display: inline-block;
+    }
+    .boton_formulario
+    {
+      width: 30%;
+      height: 30px;
+      background-color: #ea9410;
+      color: white;
+      border: #ea9410;
+      margin: 0 auto;
+    }
+    /*
+    .estilo_tabla{
+      width: 70%;
+      border-collapse: collapse;
+    }*/
+    
+    .modificar_tabla{
+      width: 200px;
+      border-collapse: collapse;
+    }
+    
+    /*table, th, td{
+      width: 40%;
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th{
+      background-color: darkgray;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }*/
+    
+    .btn{
+      width: 30%;
+    }
+    
+    .tamañobtnformulario{
+        width: 30%;
+    }
+    
+    .color1{
+      background-color: blueviolet;
+    }
+    .color2{
+      background-color: coral;
+    
+    }
+    .color3{
+      background-color: cyan;
+    }
+    
+    .fs-1{
+      text-align: center;
+      color: #ea9410;
+    }
+    
+    .row
+    {
+      margin-bottom: 20px;
+    }
+    
+    .btn{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    
+    .titulo_proyecto{
+      padding-top: 20px;
+      color:black;
+    }
+    
+    /*condicion para ajustar a celular*/
+    @media(max-width: 640px){
+      .menu ul{
+        display: block;
+        width: 90%;
+    
+      }
+      .menu li a{
+        width: 90%;
+      }
+      .formulario{
+        width: 90%;
+      }
+      .formulario_label{
+        width: 40%;
+      }
+      .formulario_input{
+        width: 50%;
+    
+      }
+      .boton_formulario
+      {
+        width: 45%;
+      }
+    /*  .estilo_tabla{
+        width: 50px; 
+      }*/
+      table{
+        width: 50%; 
+      }
+      .diseño_caja1{
+        width: 90%;
+        height: 30%;
+        display: block;
+      }
+    }
+    
+    /*condicion para tablets*/
+    @media(min-width:640px) and (max-width:1280px)
+    {
+      .formulario{
+        width: 100%;
+      }
+      .formulario_label{
+        width: 25%;
+      }
+      .formulario_input{
+        width: 55%;
+    
+      }
+    
+    
+    }
+
+
+
