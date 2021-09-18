@@ -22,6 +22,7 @@ nav ul li
     */
 
     h1 {
+        color: rgb(0, 0, 0);
         font-family:serif;
         font-size: 150%;
       }
@@ -30,22 +31,29 @@ nav ul li
     body{
       background-color: white;
     }
-    
+
+        div{
+          width: 95%;
+          height: 25%;
+          display: inline-block;
+        }
+
     /*sintaxis para mas de una etiqueta*/
     .diseño_caja1{
-      width: 28%;
+      width: 25%;
       height: 30%;
       display: inline-block;
       /*display: flex;*/
-      border-style: solid;
+      border-style: dashed;
       background-color:white;
       /*margin: 1% 1% 1% 1%;*/
-      margin: 10px 10px 10px 10px;
-      padding: 1% 0 0 1%;
+      margin: 5px 5px 5px 5px;
+      padding: 1% 0 1% 1%;
+      color: rgb(0, 0, 0);
     }
     /*sintaxis para una sola etiqueta*/
-    #parrafo1{
-      color:cadetblue;
+    #Parrafo1{
+      color:rgb(0, 0, 0);
     }
     
     .tituloyicono{
@@ -68,45 +76,47 @@ nav ul li
     }
     
     .iconopersonalizado{
-      font-size: 40px;
-      color:darkblue;
+      font-size: 35px;
+      color:rgba(0, 26, 255, 0.945);
+      text-align: right;
     }
     
     .iconopersonalizado2{
-      font-size: 40px;
-      color:slateblue;
+      font-size: 35px;
+      color:rgb(215, 13, 255);
     }
     
     .iconopersonalizado3{
-      font-size: 40px;
-      color:steelblue;
+      font-size: 35px;
+      color:rgba(0, 26, 255, 0.945);
     }
     
     .botondiv{
       background-color: orange;
-      width: 150px;
-      height: 40px;
+      width: 100px;
+      height: 30px;
       color: #ffffff;
       align-items:right;
-      border-color: orange;
+      border-color: rgb(0, 0, 0);
     }
     
     .botonderecha{
       display: flex;
-      height: 10%;
+      height: 20%;
       justify-content: right;
+      /*margin: 0% 0% 1% 2%;*/
       
       
     }
     
-    .menu_alinear{
+    /*.menu_alinear{
       display: flex;  
       justify-content: center;
       margin: 50px 0 30px 0;
-    }
+    }*/
     
     .menu ul{
-      display: flex;
+      display:flex;
       list-style: none;
       justify-content: center;
     }
@@ -115,14 +125,15 @@ nav ul li
       display: block;
       background-color:steelblue;
       color: #ffffff;
-      width: 200px;
-      height: 40px;
+      width: 120px;
+      height: 45px;
       text-decoration: none;
       border-style: solid;
       text-align: center;
       padding: 20px 0px 0px 0px;
     }
-    
+
+   
     .menu a:hover{
       background-color: midnightblue;
        color:moccasin;

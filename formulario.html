@@ -8,21 +8,21 @@
 </head>
 <body>
     <center>
-    <h1>LOGO DE PAÑALERIA</h1>
+        <img src="img/Panaleria.png"></img> <!--logo de la marca-->
     <br />
-    <h1>Crear una cuenta</h1>
+    <h1>Crear una cuenta y obten mas beneficios</h1>
     <form>
         <label>Nombre de usuario</label>
         <br />
-        <input type="text" name="txtNombre"></input>
+        <input type="text" name="txtNombre" placeholder="Ingrese nombre de usuario"></input>
         <br />
         <label>Email</label>
         <br />
-        <input type="email" name="txtEmail"></input>
+        <input type="email" name="txtEmail" required placeholder="Ingrese email"></input>
         <br />
         <label>Contraseña</label>
         <br />
-        <input type="password" name="txtPassword"></input>
+        <input type="password" name="txtPassword" required placeholder="Ingrese contraseña"></input>
         <br />
         
         <!--<label>Ingrese la fecha:</label>
@@ -37,9 +37,9 @@
             <option value=3>Renault</option>
         </select>-->
         <br />
-        <input type="checkbox" name="txtTerminos"></input>
-        <h6><label>Acepto los Términos y Condiciones y autorizo el uso de mis datos de acuerdo a la Declaración de Privacidad y la Autorización de Tratamiento de Datos.</label></h6>
-        
+        <input type="checkbox" name="txtTerminos" required></input>
+        <label>Acepto los Términos y Condiciones y autorizo el uso de mis datos de acuerdo a la Declaración de Privacidad y la Autorización de Tratamiento de Datos.</label></h6>
+        <br />
         <input type="submit" value="Continuar"></input>
 
     </form>
