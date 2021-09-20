@@ -1,64 +1,98 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Pañalera</title>
-    <link rel="stylesheet" href="css/primer_estilo.css"/>
-    <script src="https://kit.fontawesome.com/1093ad3f65.js" crossorigin="anonymous"></script>
+    <title>Principal</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
-    <center>
-    <img src="img/Panaleria.png"></img> <!--logo de la marca-->
     
-    <section class="webdesigntuts-workshop"> <!--boton de buscar-->
-        <form action="" method="">		    
-            <input type="search" placeholder="Search...">		    	
-            <button>Buscar</button>
-    </center>
-
-<header>
-    <!-- En el header se colocara un logo y un menu-->
-    
-    <nav class="menu">
-
-        <ul>
-            <li class=><a href="https://www.youtube.com/watch?v=rvMSo0Oyw1M">Youtube</a></li>
-            <li><a href="Catalogo.html">Catalogo</a></li> 
-            <li><a href="Categorias.html">Categorias</a></li>
-            <li><a href="formulario.html">Registrarse</a></li>
-            <li><a href="Login.html">Inicio De Sesion</a></li>
-            <li><a href="AcercaDe.html">Acerca De</a></li>
-            <li class="nav-item"><a class="nav-link active" aria-current="page" href="">Catalogo</a></li>
-            <li class="nav-item"><a class="nav-link" href="" disabled>Contactenos</a></li>
+      <!-- NAVBAR-->
+      <nav class="navbar navbar-expand-sm navbar-dark bg-info" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Img/Panaleria2.png" alt="" width="200">
+            </a>
             
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             
-        </ul>
-  
-    
-            
-    </section>
-        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="Catalogo.html">Catalogo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Categorias.html">Categorias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Ejemplos.html">Acerca de</a></li>
+                    <li class="nav-item"><a class="nav-link" href="formulario.html">Registrarse</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Login.html">Iniciar sesion</a></li>
+                    <li class="nav-item"><a class="nav-link" href="AcercaDe.html">Contactanos</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <!--Espacio para poner logos-->
 
 
+<!-------------------------------------------------------->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Img/slide01.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item ">
+      <img src="Img/Slide02.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Img/Slide03.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--------Separador---------------------------->
+
+<div id="separator">
+    <div class="content bg-secondary"></div>
+</div>
+<!--------main---------------------------->
 
 
-    <main>
-        <h1>Pruebas primer Main</h1>
+<!--------pie de pagina---------------------------->
 
-        <p>Parrafo numero 1</p>
-        <p>Parrafo numero 2</p>
-        <p>Parrafo numero 3</p>
-        
-        <meta name="author" content="Diego Parra">
-    </main>
-    <footer>
-        
-        Curso HTML
-    </footer>
+
+<footer>
+    <div id="footer" class="p-5">
+        <div class="container w-50 pt-5">
+          <div class="row row-cols-md-2 justify-content-md-center">
+            <div class="col text-center">
+              <a href="#">
+                <button class="btn btn-lg rounded-pill btn-info w-100  p-3 shadow-sm font-weight-bold">Apoyo al cliente</button>
+              </a>
+              
+            </div>
+          </div>
+          <div class="row justify-content-md-center py-5">
+            <div class="col text-center font-weight-light">
+              <p>Proyecto DESARROLLO DE SOFTWARE Ciclo 3 Grupo 8.</p>
+              <p>Integrantes:</p>
+              <p>Diego Parra, Diego Alejandro Castillo Vega, Jonathan Fabián vivas, Joan Sebastian Barrios Pacheco, Carolina Espejo Beltrán</p>
+            </div>
+            
+          </div>
+          <div class="row"></div>
+        </div>
+      </div>
+</footer>
+
 </body>
 </html>
