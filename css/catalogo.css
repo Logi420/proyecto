@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     background-color: aliceblue;
-    font-family: 'Nerko One', cursive;
+    font-family: 'auto', cursive;
 }
 
 button {
@@ -12,14 +12,19 @@ button {
 }
 
 .page-nav {
-    background-color: #2196F3;
-    border: 1px solid black;
+    background-color: #e0e5e900;
+    border: 1px solid rgba(252, 243, 243, 0);
     position: relative;
 }
 
 .page-nav h1 {
     margin: 20px;
 }
+
+.btn-group {
+    margin: 20px;
+}
+
 
 .button-checkout {
     background-color: white;
@@ -38,18 +43,13 @@ button {
 
 .page-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
-}
+    align-items: stretch;
 
-.product-container {
-    margin: 15px;
-    padding: 2px 16px;
-    position: relative;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
-    background-color: white;
+
 }
 
 .product-container:hover {
